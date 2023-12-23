@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM ghcr.io/r-wasm/webr:main
+FROM ghcr.io/yutannihilation/webr-rust:main
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY code.R /code.R
